@@ -52,7 +52,6 @@ class Auth extends Component {
     
     return (
       <div className="Auth">
-      <img src='/images/trollface.psd' alt='trollface'/>
         <h1>Helo</h1>
          <input type='text' value={username} onChange={e => this.handleChange('username', e.target.value)} placeholder='Username'/>
          <input type='password' value={password} onChange={e => this.handleChange('password', e.target.value)} placeholder='Password'/>
